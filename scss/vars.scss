@@ -1,0 +1,40 @@
+// colors
+
+$main-bg-color: #f5f5f6;
+$main-text-color: #585858;
+
+$primary-title-color: #1b1b1b;
+$secodnary-title-color: #727272;
+
+$primary-color: #2427f0;
+$primary-color-hover: #393cf1;
+
+$secondary-color: #2427f0;
+$secondary-color-hover: #2427f0;
+
+// breakpoints
+$screen-xs-max: 575px;
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-lg-max: 1199px;
+$screen-xl-max: 1459px;
+
+// paddings
+$padding-vertical-xs: 15px 0px;
+$padding-vertical-sm: 30px 0px;
+$padding-vertical-md: 45px 0px;
+$padding-vertical-xl: 60px 0px;
+
+// box-shadow
+$boxshadow: 0 10px 17px rgba(0, 0, 0, 0.068);
+$boxshadow-hover: 0 10px 17px rgba(0, 0, 0, 0.15);
+
+$boxshadow-form: 0px 9px 11px rgba(159, 159, 159, 0.05);
+$boxshadow-form2: 17px 7px 20px rgba(32, 32, 32, 0.26);
+
+$border-radius-sm: 7px;
+$border-radius-xl: 15px;
+$border-radius-round: 50%;
+
+//transition
+$transition: 0.145s ease 0s;

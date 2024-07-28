@@ -1,0 +1,332 @@
+/**MOBILE FIX**/
+
+.tns-nav {
+  display: none;
+}
+
+@media (max-width: $screen-xl-max) {
+  .service-card-3 {
+    margin-bottom: 30px;
+  }
+
+  .tns-nav {
+    display: none;
+  }
+
+  .content-text {
+    &__logo {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: $screen-md-max) {
+  .tns-nav {
+    display: block;
+    text-align: center;
+  }
+
+  /*title-block
+  *****************/
+
+  .title-block {
+    text-align: left;
+  }
+
+  /*Blog-card
+  ***************/
+  .blog-card-1 {
+    &__wrapper-image {
+      height: 250px;
+    }
+
+    &__content {
+      margin-bottom: 40px;
+    }
+
+    &__overlay {
+      height: 100%;
+    }
+  }
+
+  .blog-card-3 {
+    &__wrapper-card {
+      margin: 25px 345px 0px 0px;
+      @media (max-width: $screen-md-max) {
+        margin: 25px 440px 0px 0px;
+      }
+    }
+  }
+
+  /*Review
+  *****************/
+  .review-2 {
+    min-height: 320px;
+  }
+
+  /*Contact
+  *******************/
+  .contact-1 {
+    align-items: flex-start;
+    min-height: 480px;
+    margin-bottom: 25px;
+
+    &__property {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    &__property-item {
+      margin-bottom: 0px;
+    }
+
+    &__info {
+      align-items: flex-start;
+      padding-left: 15px;
+    }
+
+    &__button {
+      margin-top: 25px;
+    }
+  }
+
+  .contact-1--form {
+    display: none;
+  }
+
+  /*Contact-2
+  **********************/
+
+  .section_contact-2 {
+    background: linear-gradient(269deg, #3c6aed 39%, #3c6aed 96%) center center / 100% 83% no-repeat;
+  }
+
+  .contact-2 {
+    &__title,
+    &__subtitle,
+    &__description,
+    &__phone {
+      display: none;
+    }
+
+    &__helper {
+      margin-top: 100px;
+    }
+
+    &__xs-phone {
+      display: flex;
+      margin: 30px 0px -20px 25px;
+      gap: 18px;
+    }
+  }
+
+  .form-fback {
+    margin-top: 25px;
+  }
+
+  /*Галерея 1*.
+  *******************************/
+
+  .gallery-1 {
+  }
+
+  .comblock {
+    &__divide {
+      margin-bottom: 20px;
+    }
+
+    &__wrapper-link {
+      margin-bottom: 20px;
+    }
+  }
+
+  /*Команда-1*.
+  *******************************/
+  .team-member-1 {
+    margin: 0 15px;
+    margin-bottom: 55px;
+  }
+
+  /*Команда-2*.
+  *******************************/
+  .team-member-2 {
+    margin: 20px 0px;
+  }
+
+  /*Service-card-4*.
+  *******************************/
+  .service-card-4 {
+    padding: 0 130px 0 0;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .blog-card-3 {
+    &__image {
+      margin-bottom: 25px;
+    }
+  }
+
+  .service-card-4 {
+    &__wrapper-img {
+      padding: 0 235px 0 0;
+    }
+  }
+
+  .review-4 {
+    &__wrapper-img {
+      margin: 0 auto;
+    }
+
+    &__image {
+      height: 500px;
+      margin: 0 0 35px 0;
+      width: auto;
+    }
+  }
+
+  .blog-card-1 {
+    &__overlay {
+      height: 100%;
+    }
+  }
+
+  .blog-card-3 {
+    &__wrapper-card {
+      margin: 25px 285px 0px 0px;
+    }
+  }
+
+  .team-member-1 {
+    margin: 0 280px 55px 0;
+  }
+
+  .team-member-2 {
+    margin: 20px 325px 20px 0px;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .review-slider-1__item {
+    margin: unset;
+  }
+
+  .review,
+  .review-2,
+  .review-3,
+  .review-4 {
+    margin: unset;
+  }
+
+  .review-4 {
+    &__wrapper-img {
+      margin: unset;
+    }
+  }
+
+  .service-card-4 {
+    padding: unset;
+
+    &__wrapper-img {
+      padding: unset;
+    }
+  }
+
+  .review-4 {
+    &__wrapper-img {
+      margin: unset;
+    }
+  }
+
+  .blog-card-1 {
+    &__wrapper-image {
+      height: unset;
+    }
+
+    &__overlay {
+      height: 100%;
+    }
+
+    &__description {
+      display: none !important;
+    }
+  }
+
+  .blog-card-2 {
+    &__content {
+      top: 0;
+      left: 0;
+    }
+
+    &__description {
+      display: none !important;
+    }
+  }
+
+  .blog-card-3 {
+    &__wrapper-card {
+      margin: unset;
+    }
+  }
+
+  .team-member-1 {
+    margin: unset;
+    margin-bottom: 25px;
+  }
+
+  .team-member-2 {
+    margin: unset;
+    margin-bottom: 25px;
+  }
+
+  .team-member-3 {
+    &__image {
+      height: 115px;
+    }
+
+    &__description {
+      display: none;
+    }
+  }
+
+  .contact-2 {
+    &__ads {
+      padding: 25px 0;
+    }
+
+    &__image {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    &__icon {
+      font-size: 27px;
+      padding-top: 5px;
+      margin-right: 0px;
+    }
+
+    &__xs-phone {
+      margin: 30px 0 0 25px;
+    }
+
+    &__number {
+      font-size: 15px;
+    }
+
+    &__author-img {
+      height: unset !important;
+      margin: 0 100px;
+    }
+
+    &__help-text {
+      display: block;
+      max-width: unset;
+    }
+  }
+
+  .form-fback {
+    margin: unset;
+  }
+}

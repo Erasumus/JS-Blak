@@ -1,0 +1,36 @@
+.slider-flex {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+
+  &__slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    cursor: grab;
+  }
+
+
+  &__slide {
+
+    img {
+      -webkit-user-drag: none;
+      user-select: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+
+      :focus, :hover {
+        outline: none;
+      }
+
+      :active {
+        cursor: grabbing;
+      }
+    }
+  }
+}
